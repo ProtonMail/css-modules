@@ -6,7 +6,7 @@ module.exports = {
     entry: {
       app: [
         'webpack/hot/dev-server',
-        './node_modules/angular/angular.js,
+        './vendor/angular.src.js',
         './node_modules/angular-route/angular-route.js',
         './src/app.js'
       ]
