@@ -8,7 +8,7 @@ const Home = function () {
   };
 
   return {
-    template: require('./home.html'),
+    template: require('./home.ejs'),
     restrict: 'E',
     link,
     replace: true,

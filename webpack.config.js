@@ -27,7 +27,7 @@ module.exports = {
         ]
       },
       {test: /\.(png|jpg)$/, loader: 'url'},
-      {test: /\.html$/, loader: 'ng-cache?prefix=[dir]/[dir]'}
+      {test: /\.ejs$/, loader: 'ng-cache?prefix=[dir]/[dir]'}
     ]
   },
   plugins: [
