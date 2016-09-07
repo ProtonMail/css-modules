@@ -6,7 +6,7 @@ module.exports = {
     entry: {
       app: [
         'webpack/hot/dev-server',
-        './vendor/angular.src.js',
+        './node_modules/angular/angular.js,
         './node_modules/angular-route/angular-route.js',
         './src/app.js'
       ]
@@ -27,7 +27,7 @@ module.exports = {
         ]
       },
       {test: /\.(png|jpg)$/, loader: 'url'},
-      {test: /\.html$/, loader: 'ng-cache?prefix=[dir]/[dir]'}
+      {test: /\.ejs$/, loader: 'ng-cache?prefix=[dir]/[dir]'}
     ]
   },
   plugins: [
