@@ -1,0 +1,34 @@
+.fluo {
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+  color:rgba(0,0,0,0.3);
+  font-weight: bold;
+}
+
+.fluo:before, .fluo:after {
+    background: #fdf167;
+    border-radius: 1px;
+    padding: 0px 2px;
+    bottom: 0;
+    content: "";
+    height: 90%;
+    left: -3px;
+    overflow: hidden;
+    position: absolute;
+    transform: skewX(-2deg) rotate(-0.2deg) translateY(0%);
+    transform-origin: left bottom 0;
+    width: 0;
+    z-index: -1;
+}
+
+.fluo:before{
+    left: 2px;
+    transform: skewX(4deg) rotate(0.1deg) translateY(1px);
+    width: 100%;
+    opacity: 0.9;
+}
+
+.fluo:after{
+    width: 100%;
+}
