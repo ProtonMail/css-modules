@@ -8,9 +8,10 @@
     "test": "karma start ./karma.conf.js --single-run",
     "test:watch": "karma start ./karma.conf.js --no-single-run --auto-watch",
     "validate": "eslint ."
-},
+  },
   "devDependencies": {
     "angular-mocks": "^1.4.3",
+    "angular-route": "^1.4.3",
     "babel-loader": "^5.3.2",
     "css-loader": "^0.15.6",
     "eslint": "^1.0.0",
@@ -33,7 +34,8 @@
     "style-loader": "^0.12.3",
     "url-loader": "^0.5.6",
     "webpack": "^1.10.5",
-    "webpack-dev-server": "^1.10.1"
+    "webpack-dev-server": "^1.10.1",
+    "url-loader": "^0.5.7"
   },
   "dependencies": {
     "angular": "^1.4.3",
